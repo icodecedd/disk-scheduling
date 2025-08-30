@@ -28,6 +28,8 @@ scheduling strategies optimize disk I/O performance.
 
 ## ✨ Features
 
+<div align="center">
+
 | 🔧 Interactive Simulation                                    | 🎨 Advanced UI/UX                                              |
 | ------------------------------------------------------------ | -------------------------------------------------------------- |
 | ✅ Multi-Algorithm Support: 6 scheduling algorithms           | ✅ Rich Terminal Interface: Colorized output with progress bars |
@@ -35,10 +37,14 @@ scheduling strategies optimize disk I/O performance.
 | ✅ Real-time Visualization: Animated disk head movement       | ✅ Data Visualization: Professional matplotlib charts           |
 | ✅ Performance Metrics: Seek time and distance analysis       | ✅ Error Handling: Comprehensive input validation               |
 
+</div>
+
 ---
 
 ## 🧮 Algorithms Implemented
 
+<div align="center">
+  
 | Algorithm     | Full Name                | Strategy                | Time Complexity | Best Use Case               |
 | ------------- | ------------------------ | ----------------------- | --------------- | --------------------------- |
 | 🎯 **FCFS**   | First-Come, First-Served | Sequential processing   | O(n)            | Simple, fair scheduling     |
@@ -47,6 +53,8 @@ scheduling strategies optimize disk I/O performance.
 | 👀 **LOOK**   | Look Algorithm           | Optimized SCAN          | O(n)            | Efficient boundary handling |
 | 🔄 **C-SCAN** | Circular SCAN            | Unidirectional circular | O(n)            | Uniform response time       |
 | 🎯 **C-LOOK** | Circular LOOK            | Optimized C-SCAN        | O(n)            | Best overall performance    |
+
+</div>
 
 ---
 
@@ -105,8 +113,8 @@ scheduling strategies optimize disk I/O performance.
 
 ### Step 1: Clone the Repository
   ```bash
-  git clone https://github.com/your-username/disk-scheduling-algorithms.git
-  cd disk-scheduling-algorithms
+  git clone https://github.com/icodecedd/disk-scheduling.git
+  cd disk-scheduling
   ```
 ### Step 2: Create Virtual Environment (Recommended)
   ```bash
@@ -157,7 +165,7 @@ We enthusiastically welcome contributions from the community! Here's how you can
 ### Contribution Process
 
 1. **Fork** the repository to your GitHub account
-2. **Clone** your fork locally (`git clone https://github.com/your-username/disk-scheduling-algorithms.git`)
+2. **Clone** your fork locally (`git clone https://github.com/icodecedd/disk-scheduling.git`)
 3. **Create** a feature branch (`git checkout -b feature-name`)  
 4. **Commit** your changes (`git commit -m "Add: Enhanced SSTF algorithm with batch processing"'`)  
 5. **Push** to your branch (`git push origin feature-name`)  
